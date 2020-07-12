@@ -17,31 +17,31 @@ if (country !== null) {
   switch (country) {
     case china:
       alert(
-        "Доставка в ${deliveryCountry} будет стоить ${priceChina} кредитов"
+        `Доставка в ${deliveryCountry} будет стоить ${priceChina} кредитов`
       );
       break;
 
     case chile:
       alert(
-        "Доставка в ${deliveryCountry} будет стоить ${priceChile} кредитов"
+        `Доставка в ${deliveryCountry} будет стоить ${priceChile} кредитов`
       );
       break;
 
     case australia:
       alert(
-        "Доставка в ${deliveryCountry} будет стоить ${priceAustralia} кредитов"
+        `Доставка в ${deliveryCountry} будет стоить ${priceAustralia} кредитов`
       );
       break;
 
     case india:
       alert(
-        "Доставка в ${deliveryCountry} будет стоить ${priceIndia} кредитов"
+        `Доставка в ${deliveryCountry} будет стоить ${priceIndia} кредитов`
       );
       break;
 
     case jamaica:
       alert(
-        "Доставка в ${deliveryCountry} будет стоить ${priceJamaica} кредитов"
+        `Доставка в ${deliveryCountry} будет стоить ${priceJamaica} кредитов`
       );
       break;
     default:
@@ -50,4 +50,3 @@ if (country !== null) {
 } else {
   console.log("Отменено пользователем!");
 }
-// deliveryCountry.toLocaleLowerCase();
